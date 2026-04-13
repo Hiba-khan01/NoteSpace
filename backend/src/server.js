@@ -9,7 +9,7 @@ const notesRoutes = require("./routes/notesRoutes");
 const rateLimiter = require("./middleware/rateLimiter");
 const cors = require("cors");
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 3000;
 
 
 // Middleware
